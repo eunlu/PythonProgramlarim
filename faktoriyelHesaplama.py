@@ -22,7 +22,7 @@ def fakt2(n):
     else:
         return n*fakt2(n-1)
 
-
-sayi = input("Faktoriyelini hesaplatmak istediðiniz sayý: ")
+sayi = input("Faktoriyelini hesaplatmak istediðiniz sayýyý girin: ")
 print fakt1(sayi)
+#sayi = input("Faktoriyelini hesaplatmak istediðiniz sayýyý girin: ")
 print fakt2(sayi)
